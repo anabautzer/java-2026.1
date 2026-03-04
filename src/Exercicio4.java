@@ -7,6 +7,6 @@ public class Exercicio4 {
                 valorA = valorB; //passa o valor de 'b' para 'a'
                 valorB = auxiliar; //passa o valor da auxiliar (original de 'a') para 'b'
             System.out.println(valorA);
-            System.out.println(valorB);
-}
+            System.out.println(valorB); //pode colocar System.out.println("valor /n de b= "+ valorB), lembrar de usar o +
+}                                               // /n faz a quebra do texto para linha de baixo
 }
